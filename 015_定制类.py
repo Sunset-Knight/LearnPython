@@ -7,7 +7,7 @@ class Student(object):
 	"""docstring for Student."""
 	def __init__(self):
 		super(Student, self).__init__()
-		self.name = 'Michael'		
+		self.name = 'Michael'
 		
 	def __getattr__(self, attr):
 		if attr == 'score':
